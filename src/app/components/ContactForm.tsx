@@ -35,12 +35,13 @@ const ContactForm = () => {
         Accept: "application/json",
       },
       body: JSON.stringify({
-        access_key: "e1d47c36-17d4-492d-b877-af17cba2fac9",
+        access_key: "YOUR_WEB3FORMS_ACCESS_KEY", // Replace with your Web3Forms access key
         name: formData.firstname + " " + formData.lastname,
         email: formData.email,
         phone: formData.phone,
         subject: formData.subject,
         message: formData.message,
+        to_email: "suhaillakho.xwave@gmail.com", // Update recipient email
       }),
     });
 

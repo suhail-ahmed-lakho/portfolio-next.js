@@ -18,7 +18,7 @@ const servicesData:ServiceItem[] = [
   },
   {
     id: 2,
-    title: "WordPress Website Creation",
+    title: "Clone Any Website",
     image: project2,
   },
   {

@@ -1,8 +1,9 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
-import project1 from "/public/images/projects/Restoran.png";
-import project2 from "/public/images/projects/Positivus.png";
-import project3 from "/public/images/projects/Scoop-Home.png";
+import project1 from "../../../public/images/projects/Restoran.png";
+import project2 from "../../../public/images/projects/ecomerce.png";
+import project3 from "../../../public/images/projects/fooddeleiver.png";
+import project4 from "../../../public/images/projects/furniture.png";
 import Image, { StaticImageData } from "next/image";
 import Button from "./Button";
 
@@ -16,29 +17,36 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: "Restoran - Complete Front-end Solution",
+    title: "PICKBAZAR - E-commerce Platform",
     description:
-      "A sleek, modern, and fully responsive website template for restaurants, built with HTML, CSS, Bootstrap, JavaScript, Slick Slider, and AOS. This template includes sections like the menu, about us, testimonials, gallery, and contact information, designed to offer a seamless user experience across all devices.",
+      "A comprehensive e-commerce platform built over 15 days using MUI React and Redux Toolkit. Features include product catalog, cart management, user authentication (login/signup), and payment processing. This capstone project demonstrates modern state management and API integration skills.",
     image: project1,
-    liveLink: "https://codewithshabbir.github.io/Restoran/",
-    tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap 5", "Slick Slider", "AOS"],
+    liveLink: "https://capstone-project-doak.vercel.app/",
+    tags: ["React.js", "Material UI", "Redux Toolkit", "REST API", "TypeScript"],
   },
   {
-    title: "Positivus - Responsive Landing Page",
+    title: "E-commerce Website",
     description:
-      "This is a fully responsive landing page created based on the SMIT - Web Batch 12 Module 1 design on Figma. The project uses HTML, CSS, Bootstrap, and a little bit of JavaScript to deliver a smooth and interactive experience. It adapts seamlessly to different screen sizes, ensuring a great user experience across devices.",
+      "A responsive e-commerce website developed in 7 days using modern web technologies. Implemented Bootstrap's grid system for perfect responsiveness across all devices (desktop, tablet, mobile). Features clean design and intuitive navigation for optimal user experience.",
     image: project2,
-    liveLink: "https://codewithshabbir.github.io/Positivus/",
-    tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap 5"],
+    liveLink: "https://capstone-2-seven.vercel.app/index.html",
+    tags: ["HTML5", "CSS3", "Bootstrap 5", "Responsive Design"],
   },
-  
   {
-    title: "Social Scoop - Responsive Landing Page",
+    title: "Pizza Delivery Landing Page",
     description:
-      "This responsive HTML template is designed for digital marketing agencies. It features a hero banner that includes a call-to-action form and navigation menu. The project utilizes custom fonts and FontAwesome icons to enhance the user experience.",
+      "A visually appealing landing page for a pizza delivery service, crafted from a Figma design. Incorporated modern CSS features including flexbox layouts, engaging animations, shadow effects, and interactive hover states to create an immersive user experience.",
     image: project3,
-    liveLink: "https://html-template-task.netlify.app/",
-    tags: ["HTML5", "CSS3"],
+    liveLink: "https://food-deleivery-website.vercel.app/",
+    tags: ["HTML5", "CSS3", "Animations", "Figma"],
+  },
+  {
+    title: "Furniture Website Landing Page",
+    description:
+      "My first capstone project - a furniture website landing page designed in Figma and implemented using core web technologies. Utilized CSS flexbox and positioning for precise layout control, completed in 4 days.",
+    image: project4, // You'll need to import and use the correct image
+    liveLink: "https://food-deleivery-1.vercel.app/",
+    tags: ["HTML5", "CSS3", "Figma", "Web Design"],
   },
 ];
 

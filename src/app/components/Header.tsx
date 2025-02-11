@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import logo from "/public/images/muhammad-shabbir-logo.png";
+import logo from "../../../public/images/suhail.jpg";
 import { HiOutlineMenu, HiOutlineX } from 'react-icons/hi';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -90,11 +90,11 @@ const Header: React.FC = () => {
               <a href="#service">Service</a>
             </li>
           </ul>
-          <div className="logo flex items-center">
-            <a href="#">
-              <Image src={logo} alt="Logo" />
+            <div className="logo flex items-center">
+            <a href="#" className="text-white text-2xl font-bold">
+              Suhail
             </a>
-          </div>
+            </div>
           <ul className="flex items-center">
             <li className="text-white mx-10 my-6 relative font-semibold">
               <a href="#skills">Skills</a>

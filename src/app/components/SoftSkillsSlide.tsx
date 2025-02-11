@@ -2,14 +2,14 @@ import React from 'react'
 import { CiStar } from "react-icons/ci";
 
 const softSkills = [
-    "Social Media Influencer",
-    "EX-Tech Youtuber",
-    "Prompt Engineering",
-    "Canva Proficiency",
-    "AI Tools Utilization",
-    "Problem Solving",
-    "Team Collaboration",
-    "Creativity",    
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React",
+  "Next.js",
+  "TypeScript",
+  "Redux",
+  "Tailwind CSS",
 ]
 
 const SoftSkillsSlide: React.FC = () => {
